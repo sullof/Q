@@ -59,8 +59,7 @@ but it won't work if nested.
 
 ## Credits
 
-O is (c) Francesco Sullo <sullof@sullof.com>
-The modules are (c) of respective authors.
+Francesco Sullo <sullof@sullof.com>
 
 ## License 
 
