@@ -49,6 +49,22 @@
 
 
 
+// HTML string creator. Good for Zepto.
 
+var H = function () {
+	var a = arguments, 
+		s = "br.img.link.hr.meta".split("."),
+		tag = a[0].toLowerCase(),
+		attr = tag && typeof a[1] == 'object' ? a[1] : null,
+		z = attr ? 2 : 1,
+		str = tag ? '<'+tag : ''; 
+ 	if (attr) for (var j in attr) str += ' '+j+'="'+attr[j]+'"';
+	str += tag ? (s[tag]?"/":'') + ">" : '';
+	for (var i=z;i<a.length;i++) {
+		str += a[i];
+	}
+	if (tag && !s[tag]) str += "</"+tag+">";
+	return str;
+};
 
 
