@@ -59,13 +59,13 @@ but it won't work if nested.
 
 ## Credits
 
-Francesco Sullo <sullof@sullof.com>
+Francesco Sullo <sullof@gmail.com>
 
 ## License 
 
 (The MIT License)
 
-Copyright (c) 2010 Francesco Sullo <sullof@sullof.com>
+Copyright (c) 2010 Francesco Sullo <sullof@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
